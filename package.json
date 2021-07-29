@@ -1,0 +1,43 @@
+{
+  "name": "vuepress-cli-zs",
+  "version": "1.1.8",
+  "description": "quick create vuepress project",
+  "main": "index.js",
+  "bin": {
+    "vuepress-cli-zs": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhao1207/vuepress-cli-zs.git"
+  },
+  "keywords": [
+    "vuepress",
+    "cli"
+  ],
+  "author": "zs_jack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhao1207/vuepress-cli-zs/issues"
+  },
+  "homepage": "https://github.com/zhao1207/vuepress-cli-zs#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.1.1",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^8.1.0",
+    "handlebars": "^4.7.3",
+    "inquirer": "^7.0.4",
+    "log-symbols": "^3.0.0",
+    "ora": "^4.0.3",
+    "update-notifier": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=8.6"
+  }
+}
